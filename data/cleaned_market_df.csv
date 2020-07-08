@@ -1,4 +1,4 @@
-MarketName,street,city,County,State,zip,x,y,Credit,WIC,WICcash,SFMNP,SNAP,has_website,Produce,Confectionary,Household,Dairy,Plants,Meat,Other,Product Count,Alternative Payment Methods
+MarketName,street,city,County,State,zip,x,y,Credit,WIC,WICcash,SFMNP,SNAP,has_website,Produce,Confectionary,Household,Dairy,Plants,Meat,Other,product_count,alt_pay_methods
  Caledonia Farmers Market Association - Danville,,Danville,Caledonia,Vermont,5828,-72.140335,44.411037,1,1,0,1,0,1,5.0,4.0,3.0,2.0,2.0,2.0,2.0,20.0,2
  Stearns Homestead Farmers' Market,6975 Ridge Road,Parma ,Cuyahoga,Ohio,,-81.73394,41.374802,1,0,0,1,0,1,3.0,4.0,2.0,1.0,1.0,1.0,0.0,12.0,1
 10th Steet Community Farmers Market,10th Street and Poplar,Lamar ,Barton,Missouri,64759,-94.27462,37.495628,1,0,0,0,0,0,3.0,3.0,2.0,1.0,1.0,2.0,1.0,13.0,0
@@ -70,7 +70,6 @@ Adams County Farmers' Market Association,103 Carlisle Street,Gettysburg,Adams,Pe
 Adams Farmers' & Artisans' Market,Adams Visitors Center  3 Hoosac St,Adams,Berkshire,Massachusetts,1220,-73.118004,42.624493,0,1,0,1,0,0,1.0,3.0,3.0,1.0,1.0,0.0,0.0,9.0,2
 Adams Morgan Farmer Market,"18th Street and Columbia Rd, NW","Washington, DC",District of Columbia,District of Columbia,20009,-77.042671,38.92268,1,1,1,1,1,1,4.0,2.0,0.0,1.0,2.0,2.0,0.0,11.0,4
 Adams-Ricci Farmers Market,100 East Penn Drive,Enola,Cumberland,Pennsylvania,17025,-76.93740799999999,40.273998,1,1,0,1,0,0,4.0,3.0,2.0,2.0,2.0,2.0,3.0,18.0,2
-Adaptations' Fresh Feast,"79-7500 Mamalahoa Highway, Unit 1",Kealakekua,Hawaii,Hawaii,96750,-155.92365,19.525783999999998,1,0,0,0,1,1,5.0,3.0,0.0,2.0,0.0,0.0,1.0,11.0,1
 Adrian Farmers Market,115 Toledo Street,Adrian ,Lenawee,Michigan,49221,-84.034592,41.900169,1,1,0,1,1,0,6.0,4.0,2.0,1.0,2.0,2.0,0.0,17.0,3
 Aenon Baptist Church Farm Stand,175 Genesee Street,Rochester,Monroe,New York,14611,-77.636078,43.146603000000006,1,1,0,0,1,0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,2
 Afton Village Farmers Market,5401 Village Dr,Concord,Cabarrus,North Carolina,28027,-80.670174,35.41404,1,1,0,0,0,1,3.0,3.0,0.0,2.0,2.0,2.0,0.0,12.0,1
@@ -79,7 +78,6 @@ Agricenter International Farmer's Market,7777 Walnut Grove Rd,Memphis,Shelby,Ten
 Agritopia Farm Stand,3000 E. Ray Road (Higley & Ray),Gilbert,Maricopa,Arizona,85233,-111.72621000000001,33.321659000000004,1,0,0,0,0,1,5.0,2.0,0.0,2.0,0.0,2.0,1.0,12.0,0
 Ahwatukee Farmers Market,4700 E. Warner Rd,Phoenix,Maricopa,Arizona,,-111.98324,33.331329,1,1,1,1,1,0,2.0,3.0,2.0,2.0,3.0,3.0,2.0,17.0,4
 Aiken County Farmers Market,897 Richland Avenue East,Aiken,Aiken,South Carolina,29801,-81.708496,33.556881,0,0,0,0,0,1,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0
-Aina Moana  Park (People's Open Market),1201 Ala Moana Boulevard,Honolulu,Honolulu,Hawaii,96822,-157.84492,21.287867000000002,1,0,0,1,1,1,6.0,0.0,0.0,0.0,0.0,0.0,0.0,6.0,2
 Airport Farmers and Flea Market,17375 Spring Hill Dr,Brooksville,Hernando,Florida,34604,-82.44111600000001,28.481140000000003,1,0,0,0,0,0,4.0,4.0,3.0,1.0,3.0,1.0,2.0,18.0,0
 Akers of Strawberries,1054 Melton Road,Baker,Okaloosa,Florida,32531,-86.701279,30.798683,1,1,1,0,1,1,5.0,4.0,3.0,2.0,2.0,1.0,2.0,19.0,3
 Alabama Gulf Coast Market,22250 Perdido Beach Boulevard,Gulf Shores,Baldwin,Alabama,36542,-87.65585300000001,30.250746000000003,1,0,0,1,0,0,3.0,3.0,1.0,1.0,0.0,0.0,0.0,8.0,1
@@ -931,7 +929,6 @@ City Center Farmers Market,369 West Cheves Street,Florence,Florence,South Caroli
 City Hall Farmer's Market,700 Main Street,Tell City,Perry,Indiana,47586,-86.768997,37.951698,0,0,0,0,0,0,0.0,2.0,0.0,0.0,1.0,0.0,0.0,3.0,0
 City Hall Farmers Market,901 Bagby St.,Houston,Harris,Texas,77002,-95.36930100000001,29.760201000000002,0,0,0,0,0,1,3.0,2.0,0.0,1.0,2.0,0.0,1.0,9.0,0
 City Hall Park Greenmarket,Broadway & Chambers,New York,New York,New York,10007,-74.00631,40.71386,1,1,1,1,1,1,3.0,2.0,0.0,0.0,1.0,0.0,1.0,7.0,4
-City Hall Parking Lot Deck (People's Open Market),Alapai & Beretania Street,Honolulu,Honolulu,Hawaii,96813,-157.85269,21.305408,1,0,0,1,1,1,6.0,0.0,0.0,0.0,1.0,0.0,0.0,7.0,2
 City Hall Plaza Farmer's Market,229 Main St.,Nashua,Hillsborough,New Hampshire,3060,-71.464699,42.758202000000004,0,0,0,0,0,1,2.0,1.0,2.0,0.0,2.0,1.0,1.0,9.0,0
 City Heights Certified Farmers Market,4325 Wightman Street,San Diego,San Diego,California,92105,-117.10152,32.747828999999996,1,1,1,1,1,1,5.0,3.0,2.0,1.0,2.0,0.0,2.0,15.0,4
 City Market,1150 South Gay Street,Auburn,Lee,Alabama,36830,-85.475594,32.584812,1,0,0,1,0,1,7.0,5.0,2.0,3.0,1.0,2.0,1.0,21.0,1
@@ -1653,7 +1650,6 @@ Everett Farmers Market LLC,615 13th St,Everett,Snohomish,Washington,98201,-122.2
 Evergreen Farmers Market at Bergen Village,The Bergan Village Shopping Center,Evergreen,Jefferson,Colorado,80435,-105.31721,39.63332,1,0,0,0,0,1,4.0,5.0,3.0,2.0,2.0,3.0,2.0,21.0,0
 Evergreen Farmers' Market,4055 Evergreen Village Square,San Jose,Santa Clara,California,,-121.77394,37.313922999999996,1,1,0,0,1,1,3.0,2.0,0.0,1.0,1.0,0.0,1.0,8.0,2
 Evergreen Park Farmers Market,8900 S Kedzie Ave,Evergreen Park,Cook,Illinois,60805,-87.702202,41.731602,0,0,0,0,0,0,3.0,3.0,0.0,1.0,2.0,0.0,1.0,10.0,0
-Ewa Beach Community Park (People's Open Market),91-955 North Road,Ewa Beach,Honolulu,Hawaii,96706,-158.00717,21.314954999999998,1,0,0,1,1,1,5.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,2
 Excelsior Farmers' Market,301 County Road 19,Excelsior,Hennepin,Minnesota,55331,-93.57058,44.901112,1,0,0,0,0,1,3.0,4.0,2.0,2.0,4.0,3.0,1.0,19.0,0
 Exeter Farmers Market,"Swasey Parkway, off Water Street",Exeter,Rockingham,New Hampshire,,-70.95005,42.983631,1,0,0,0,1,1,5.0,5.0,2.0,2.0,2.0,3.0,3.0,22.0,1
 Exit 20 Farmers' Market at Tanger Outlet,Tanger Outlets 120 Laconia Rd,Tilton,Belknap,New Hampshire,3276,-71.561859,43.458179,1,1,0,0,1,0,2.0,3.0,2.0,1.0,0.0,0.0,1.0,9.0,2
@@ -1766,7 +1762,6 @@ Farmers' gateway Market,"Eastern Gateway Community College, 4000 Sunset Boulevar
 FARMERS' MARKET - LINCOLN,Kickapoo Street and Pekin Street,Lincoln,Logan,Illinois,62656,-89.36161,40.14761,0,1,0,1,0,0,3.0,3.0,1.0,0.0,2.0,0.0,0.0,9.0,2
 Farmers' Market at Bishops Corner,2475 Albany Avenue,West Hartford,Hartford,Connecticut,6117,-72.745361,41.785786,1,1,0,1,0,1,3.0,4.0,1.0,2.0,1.0,1.0,1.0,13.0,2
 Farmers' Market at Forest Park aka The Farmers' Market at the X,Forest Park at  Cyr Arena,Springfield,Hampden,Massachusetts,1108,-72.558868,42.0797,1,1,1,1,1,1,2.0,4.0,2.0,2.0,3.0,3.0,1.0,17.0,4
-Farmers' Market at Hamakua Harvest,46-2600 Hawaii Belt Highway,Honokaa,Hawaii,Hawaii,96727,-155.44974,20.070926999999998,1,0,0,1,1,1,5.0,4.0,2.0,2.0,3.0,1.0,2.0,19.0,2
 Farmers' Market at Harvard University,1 Oxford St,Cambridge,Middlesex,Massachusetts,2138,-71.116714,42.376434,1,1,0,1,1,1,2.0,5.0,0.0,1.0,1.0,3.0,2.0,14.0,3
 Farmers' Market at Mill Park,1 Northern Ave,Augusta,Kennebec,Maine,4330,-69.77301800000001,44.321758,1,1,0,1,1,1,7.0,4.0,1.0,2.0,2.0,2.0,0.0,18.0,3
 Farmers' Market at Poplar Grove,10200 US Highway 17,Wilmington,Pender,North Carolina,28411,-77.7649,34.319016,1,0,0,0,0,1,5.0,3.0,3.0,2.0,3.0,3.0,3.0,22.0,0
@@ -2248,8 +2243,6 @@ Haddonfield Farmers Market,Kings Court On Kings Highway,Haddonfield,Camden,New J
 Haile Village Farmers Market,5211 SW 91st Terrace,Gainesville,Alachua,Florida,32605,-82.439003,29.6061,1,1,0,1,0,1,2.0,2.0,1.0,0.0,2.0,2.0,0.0,9.0,2
 Hailey Farmers' Market,Main Street between Sturtevants and Bank of America,Hailey,Blaine,Idaho,83333,-114.3167,43.520889000000004,1,0,0,0,0,1,3.0,3.0,2.0,2.0,3.0,2.0,2.0,17.0,0
 Haines State Park Farmers' Market,Haines Memorial State Park,Barringon,Bristol,Rhode Island,,-71.3451,41.752701,1,1,1,1,1,1,2.0,3.0,0.0,0.0,2.0,0.0,0.0,7.0,4
-Halawa District Park (People's Open Market),99-795 Iwaiwa Street,Aiea,Honolulu,Hawaii,96701,-157.91495,21.373293,1,0,0,1,1,1,5.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,2
-Hale'iwa Farmers' Market,59-864 Kamehameha Hwy,Hale'iwa,Honolulu,Hawaii,96712,-158.05447,21.636543,1,0,0,0,0,1,4.0,4.0,2.0,2.0,3.0,2.0,3.0,20.0,0
 Haleyville Farmers Market,Hwy 195 and 20th Ave.,Haleyville,Winston,Alabama,35553,-87.608253,34.231730999999996,1,0,0,1,1,0,3.0,1.0,0.0,0.0,1.0,0.0,0.0,5.0,2
 Halls Mill Road Farmers Market,2245 Halls Mill Road,Mobile,Mobile,Alabama,36606,-88.0961,30.6609,0,0,0,1,0,0,2.0,0.0,0.0,0.0,0.0,0.0,0.0,2.0,1
 Hallsville Farmers' Market,Hwy OO,Hallsville,Boone,Missouri,65255,-92.21102900000001,39.11124,0,0,0,0,0,0,3.0,2.0,2.0,1.0,1.0,0.0,1.0,10.0,0
@@ -2272,7 +2265,6 @@ Hampton Blvd Farmers Market,7400 Hampton Blvd.,Norfolk,Norfolk,Virginia,23505,-7
 Hampton Farmers Market,1st Street NW and 1st Ave. NW,Hampton,Franklin,Iowa,50441,-93.20970200000001,42.742893,1,1,0,1,1,0,3.0,3.0,1.0,1.0,1.0,0.0,0.0,9.0,3
 Hampton Farrmers Market,,Hampton,Rockingham,New Hampshire,,-71.577797,43.6852,0,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0
 Hamtramck Farmers Market,Joseph Campau St. and Belmont St.,Hamtramck,Wayne,Michigan,48212,-83.058899,42.398453,0,0,0,0,1,0,1.0,3.0,1.0,0.0,0.0,0.0,1.0,6.0,1
-Hanalei Farmers' Market at Hale Halawai 'Ohana O Hanalei,55299C Kuhio Hwy ,Hanalei,Kauai,Hawaii,96714,-159.49774,22.203848,1,0,0,0,0,1,6.0,4.0,2.0,2.0,1.0,0.0,2.0,17.0,0
 Hanchett Farmers' Market,1119 Hanchett Ave.,San Jose,Santa Clara,California,95126,-121.91328,37.332046999999996,0,1,0,1,1,1,1.0,1.0,0.0,0.0,1.0,0.0,1.0,4.0,3
 Hancock County Farmers' Market,200 West Main Cross,Findlay,Hancock,Ohio,45840,-83.653008,41.039589,1,0,0,1,0,1,5.0,5.0,3.0,0.0,3.0,2.0,2.0,20.0,1
 Hancock Farmers Market,3210 Hancock Road / Route 43,Hancock,Berkshire,Massachusetts,1237,-73.30274200000001,42.570164,1,0,0,0,0,0,4.0,4.0,2.0,2.0,1.0,0.0,0.0,13.0,0
@@ -2347,7 +2339,6 @@ Haughton Market & Artisan Fair,Highway 80 East in Haughton,Haughton,Bossier,Loui
 hauppauge farmers market,102 motor parway,Hauppauge ,Suffolk,New York,11787,-73.828125,40.78054,1,1,0,1,0,1,3.0,3.0,1.0,2.0,3.0,1.0,1.0,14.0,2
 Haverhill Farmers Market,40 Bailey Blvd.,Haverhill,Essex,Massachusetts,1832,-71.078781,42.775909000000006,1,1,0,1,1,1,5.0,3.0,3.0,2.0,0.0,1.0,3.0,17.0,3
 Haverstraw Farmers Market,40 New Main Street,Haverstraw,Rockland,New York,10927,-73.966881,41.196842,1,1,0,0,0,1,1.0,4.0,2.0,1.0,0.0,1.0,0.0,9.0,1
-Hawaii Kai Park n Ride (People's Open Market),300 Keahole Street,Honolulu,Honolulu,Hawaii,,-157.71393,21.283943,1,0,0,1,1,1,6.0,0.0,0.0,0.0,1.0,0.0,0.0,7.0,2
 Hawarden Farmers Market,13th and Ave E (Veteren Memorial Drive),Hawarden,Sioux,Iowa,51023,-96.487999,43.000801,0,1,1,1,1,0,3.0,3.0,1.0,1.0,1.0,1.0,1.0,11.0,4
 Hawksbill Trading Company,139 Virginia Ave,Luray,Page,Virginia,22835,-78.461761,38.662842,1,0,0,0,0,1,8.0,4.0,2.0,2.0,3.0,2.0,1.0,22.0,0
 Hawthorne Farmers Market,345 Lafayette Ave,Hawthorne,Passaic,New Jersey,7506,-74.154854,40.950321,1,1,0,1,0,0,3.0,3.0,1.0,1.0,1.0,1.0,2.0,12.0,2
@@ -2448,8 +2439,6 @@ Hillsborough Pride Farmers Market,Main and Central Streets,Hillsborough,Hillsbor
 Hillsdale Farmers' Market,1405 SW Vermont Street,Portland,Multnomah,Oregon,97219,-122.69368999999999,45.477779,1,1,1,1,1,1,8.0,4.0,0.0,2.0,3.0,3.0,2.0,22.0,4
 Hillside Market,7753 NYS RT. 3 (Seaway Trail) Pulaski,Pulaski,Oswego,New York,13142,-76.173676,43.58773,1,1,1,0,1,1,3.0,3.0,2.0,1.0,1.0,0.0,3.0,13.0,3
 Hilltop Market,230 E Skyline Pkwy,Duluth,St. Louis,Minnesota,55811,-92.106041,46.796436,1,0,0,0,1,0,6.0,5.0,3.0,2.0,2.0,1.0,2.0,21.0,1
-Hilo Coffee Mill Market @ The Mill,17-995 Volcano Rd,Mountain View ,Hawaii,Hawaii,96771,-155.08791000000002,19.564034,1,0,0,0,1,1,2.0,1.0,3.0,1.0,3.0,0.0,2.0,12.0,1
-Hilo Farmers Market,Corner of Kamehameha Ave. & Mamo St.,Hilo,Hawaii,Hawaii,96720,-155.08479,19.723357999999998,1,0,0,0,1,1,2.0,3.0,2.0,2.0,4.0,1.0,1.0,15.0,1
 Hines Veterans Hospital Farmers Market,5th Ave.,Hines,Cook,Illinois,60141,-87.837616,41.846149,1,0,0,0,0,0,3.0,2.0,1.0,0.0,0.0,0.0,1.0,7.0,0
 Hinesburg Lions Farmers' Market,United Church of Hinesburg,Hinesburg,Chittenden,Vermont,5461,-73.110703,44.3302,0,0,0,0,1,1,2.0,4.0,2.0,0.0,1.0,0.0,1.0,10.0,1
 Hinesville Farmers Market ,"S Commerce St, Hinesville, GA 31313",Hinesville,Liberty,Georgia,31313,-81.595688,31.846771,1,0,0,0,1,0,4.0,3.0,2.0,2.0,2.0,1.0,1.0,15.0,1
@@ -2686,8 +2675,6 @@ Juanita Friday Market,9703 NE Juanita Drive,Kirkland,King,Washington,98033,-122.
 Julian St. James Farmers' Market,750 East St.  John Street,San Jose,Santa Clara,California,95112,-121.87641,37.344898,0,1,0,1,1,1,1.0,1.0,0.0,0.0,1.0,0.0,1.0,4.0,3
 Jump Start Jackson Farmers Market,4801 Watkins Drive,Jackson,Hinds,Mississippi,39206,-90.192757,32.367615,1,0,0,0,1,0,2.0,1.0,2.0,0.0,0.0,0.0,1.0,6.0,1
 Juneau Farmers Market,Courthouse Square,Juneau,Dodge,Wisconsin,53039,-88.703499,43.407001,0,0,0,0,0,0,1.0,3.0,1.0,0.0,2.0,0.0,0.0,7.0,0
-Kailua Distirct Park (People's Open Market),21 South Kainalu Drive,Kailua,Honolulu,Hawaii,96734,-157.73734,21.395632,1,0,0,1,1,1,5.0,2.0,0.0,0.0,1.0,0.0,0.0,8.0,2
-KailuaTown Farmers Market,315 Kuulei St,Kailua ,Honolulu,Hawaii,96734,-157.74153,21.395569000000002,1,0,0,0,0,1,4.0,3.0,2.0,2.0,3.0,2.0,1.0,17.0,0
 Kaiser Antioch Farmers' Market,4501 Sand Creek Rd.,Antioch ,Contra Costa,California,,-121.77578999999999,37.951896999999995,1,1,0,0,1,1,4.0,2.0,1.0,0.0,1.0,0.0,1.0,9.0,2
 Kaiser Fremont CFM,39400 Paseo Padre Parkway,Fremont,Alameda,California,94538,-121.97503999999999,37.551978999999996,0,1,0,1,1,1,1.0,1.0,0.0,0.0,2.0,0.0,1.0,5.0,3
 Kaiser Hayward Farmers' Market,27400 Hesperian Blvd,Hayward,Alameda,California,94545,-122.09496000000001,37.630604,0,1,0,1,1,1,2.0,1.0,0.0,0.0,1.0,0.0,1.0,5.0,3
@@ -2707,35 +2694,25 @@ Kaiser South Bay Farmers' Market,25825 S. Vermont Avenue,Harbor City,Los Angeles
 Kaiser South San Francisco Certified Farmers' Market,1200 El Camino Real,South San Francisco ,San Mateo,California,94080,-122.43948,37.658875,1,1,0,1,1,1,3.0,0.0,0.0,0.0,1.0,0.0,1.0,5.0,3
 Kaiser Vallejo Farmers' Market,975 Sereno Dr.,Vallejo ,Contra Costa,California,,-122.24843999999999,38.12767,1,1,0,0,1,1,4.0,2.0,0.0,2.0,1.0,0.0,1.0,10.0,2
 Kaiser Walnut Creek,1425 Main St.,Walnut Creek,Contra Costa,California,,-122.0609,37.899494,1,1,0,0,1,1,2.0,1.0,0.0,0.0,1.0,0.0,1.0,5.0,2
-Kakaako Farmers' Market,1050 Ala Moana Blvd,Honolulu,Honolulu,Hawaii,96814,-157.85556,21.294941,1,0,0,0,0,1,4.0,3.0,0.0,2.0,3.0,2.0,1.0,15.0,0
 Kalamazoo Farmers Market,1204 Bank Street,Kalamazoo,Kalamazoo,Michigan,49001,-85.58850100000001,42.275162,1,1,0,1,1,1,8.0,5.0,3.0,3.0,2.0,3.0,3.0,27.0,3
-Kalihi Valley District Park (People's Open Market),1911 Kam IV Road,Honolulu,Honolulu,Hawaii,96819,-157.8698,21.344727,1,0,0,1,1,1,6.0,1.0,0.0,0.0,1.0,0.0,0.0,8.0,2
 Kalkaska Farmers Market,353 S. Cedar,Kalkaska,Kalkaska,Michigan,49646,-85.178276,44.730629,1,0,0,0,0,0,2.0,3.0,2.0,2.0,0.0,1.0,1.0,11.0,0
-Kamehameha Community Park (People's Open Market),1400 Kalihi Street,Honolulu,Honolulu,Hawaii,96822,-157.87245,21.335165,1,0,0,1,1,1,4.0,2.0,0.0,1.0,1.0,0.0,0.0,8.0,2
 Kamm's Corners Farmers Market,16906 Albers Ave.,Cleveland ,Cuyahoga,Ohio,44111,-81.814972,41.449329,1,1,0,1,1,1,4.0,5.0,3.0,2.0,2.0,2.0,2.0,20.0,3
-Kamuela Farmers Market,67-139 Pukalani Road,Kamuela,Hawaii,Hawaii,96743,-155.66246,20.016964,1,0,0,0,0,1,4.0,3.0,2.0,1.0,3.0,0.0,2.0,15.0,0
 Kanab Farmer's Market,78 S. 100 E.,Kanab,Kane,Utah,84741,-112.5267,37.046611999999996,0,0,0,0,0,0,3.0,2.0,2.0,1.0,3.0,0.0,0.0,11.0,0
 Kanawha Farmers Market,,Kanawha,Hancock,Iowa,50447,-93.793274,42.937744,1,0,1,1,0,0,2.0,2.0,1.0,0.0,0.0,0.0,1.0,6.0,2
-Kaneohe District Park (People's Open Market),45-660 Keaahala Road,Kaneohe,Honolulu,Hawaii,96788,-157.8101,21.409788,1,0,0,1,1,1,3.0,1.0,0.0,0.0,0.0,0.0,0.0,4.0,2
 Kankakee Farmers' Market,200 S Schuyler Ave,Kankakee,Kankakee,Illinois,60901,-87.863991,41.118813,1,0,0,1,0,1,4.0,4.0,2.0,2.0,3.0,2.0,2.0,19.0,1
 Kankakee Farmers' Market - Spring Market,200 E. Merchant St.,Kankakee,Kankakee,Illinois,60901,-87.86395300000001,41.119129,1,0,0,1,0,1,4.0,4.0,3.0,2.0,3.0,2.0,3.0,21.0,1
 Kansas Grown Farmers Market 21st & Ridge,7001 W 21st St N,Wichita,Sedgwick,Kansas,67205,-97.425575,37.722687,1,1,0,1,1,1,5.0,4.0,3.0,2.0,3.0,2.0,2.0,21.0,3
 Kansas Grown Farmers Market 21st & Rock,8141 E 21st St N ,Wichita,Sedgwick,Kansas,67206,-97.242455,37.722702000000005,1,0,0,0,0,1,5.0,4.0,3.0,2.0,2.0,1.0,2.0,19.0,0
 Kansas Grown Farmers Market Derby,512 E Madison,Derby,Sedgwick,Kansas,67037,-97.26615100000001,37.548332,1,0,0,0,0,1,3.0,4.0,2.0,1.0,1.0,0.0,0.0,11.0,0
-Kapolei Community Park (People's Open Market),91-1049 Kamaaha Loop,Kapolei,Honolulu,Hawaii,96707,-158.06693,21.333263,1,0,0,1,1,1,5.0,1.0,0.0,0.0,0.0,0.0,0.0,6.0,2
-Kauai Community Market,3-1901 Kaumualii Highway,Lihue,Kauai,Hawaii,96766,-159.39648,21.967037,1,0,0,0,1,1,3.0,3.0,1.0,2.0,2.0,0.0,1.0,12.0,1
-Kaumualii Street (People's Open Market), 700 Kalihi Street,Honolulu,Honolulu,Hawaii,96819,-157.87798,21.327408,1,0,0,1,1,1,5.0,1.0,0.0,0.0,2.0,0.0,0.0,8.0,2
 KC Organics and Natural Market,1/4 mile East of Holmes Road on Red Bridge Road,Kansas City,Jackson,Missouri,64114,-94.575905,38.924953,1,0,0,0,0,1,7.0,4.0,3.0,2.0,3.0,2.0,2.0,23.0,0
 KCK Farmers Market - THURSDAY at KCKCC,Argentine Ln. ,Kansas City,Wyandotte,Kansas,66112,-94.75048100000001,39.121281,1,0,0,1,1,1,3.0,2.0,0.0,1.0,0.0,0.0,0.0,6.0,2
 KCK Farmers Market - TUESDAY at Catholic Charities,2220 Central Ave.,Kansas City,Wyandotte,Kansas,66102,-94.654839,39.108115999999995,1,0,0,1,1,1,2.0,2.0,0.0,0.0,1.0,0.0,0.0,5.0,2
 KCK Farmers Market - WEDNESDAY on Strawberry Hill,6th & Tauromee,Kansas City,Wyandotte,Kansas,66101,-94.624306,39.112251,1,0,0,1,1,1,3.0,2.0,0.0,1.0,0.0,0.0,0.0,6.0,2
 Kearney Area Farmers' Market,4700 2nd Ave,Kearney,Buffalo,Nebraska,68847,-99.084953,40.720936,1,1,0,1,0,1,3.0,3.0,0.0,1.0,2.0,2.0,1.0,12.0,2
 Kearney Area Farmers' Market,5011 N 2nd Ave,Kearney ,Buffalo,Nebraska,68847,-99.081703,40.72488,0,1,0,1,0,1,3.0,3.0,0.0,0.0,1.0,0.0,0.0,7.0,2
-Keauhou Farmers Market,"78-6831 Alii Dr, Kailua-Kona, HI 96740",Kahaluu-Keauhou ,Hawaii,Hawaii,96740,-155.96161,19.570129,1,0,0,0,1,1,5.0,3.0,2.0,1.0,1.0,2.0,2.0,16.0,1
 Kedron Farmers Market ,6001 Hwy.48 S,Dickson ,Hickman,Tennessee,37055,-87.477112,35.943638,1,0,0,0,0,0,4.0,3.0,1.0,1.0,0.0,1.0,1.0,11.0,0
 Keene Farmers' Market,Rt. 73 at Marcy Airfield,Keene,Essex,New York,12944,-73.786934,44.222027000000004,1,1,0,1,0,1,7.0,4.0,2.0,2.0,3.0,2.0,3.0,23.0,2
 Keeseville Farmers' Market,1721 Front St.,Keeseville,Essex,New York,12944,-73.48092700000001,44.504428999999995,1,1,0,1,0,1,3.0,2.0,1.0,1.0,1.0,2.0,2.0,12.0,2
-Kekela Farm Market,64-604 Mana Rd.,Waimea,Hawaii,Hawaii,96743,-155.62875,20.027179999999998,1,0,0,0,0,0,3.0,1.0,0.0,0.0,0.0,0.0,1.0,5.0,0
 Keller Farmers Market,400 Bear Creek Parkway,Keller ,Tarrant,Texas,76248,-97.24380500000001,32.926758,1,0,0,0,1,1,6.0,3.0,3.0,3.0,2.0,2.0,2.0,21.0,1
 Kelso Bridge Market,351 Three Rivers Mall Drive,Kelso ,Cowlitz,Washington,98626,-122.87716,46.127434,1,0,0,0,0,0,4.0,1.0,2.0,0.0,3.0,0.0,1.0,11.0,0
 Kemah Farmers and Open Air Market,204 FM 2094,Kemah,Galveston,Texas,77565,-95.021202,29.54093,1,0,0,0,0,1,2.0,3.0,2.0,2.0,3.0,3.0,1.0,16.0,0
@@ -2781,7 +2758,6 @@ Kingston Springs Farmers & Artisans Market,147 Harpeth View Trail,Kingston Sprin
 Kingstowne,5870 Kingstowne Towne Center,Alexandrida ,Fairfax,Virginia,22315,-77.276199,38.834793,1,0,0,0,0,1,3.0,4.0,0.0,2.0,1.0,2.0,2.0,14.0,0
 Kingstowne Farmers Market,5870 Kingstowne Center,Alexandria ,Fairfax,Virginia,22315,-77.135727,38.772537,1,0,0,0,0,0,3.0,4.0,0.0,1.0,2.0,2.0,0.0,12.0,0
 Kingwood Farmer's Market,111 E Main Street,Kingwood,Preston,West Virginia,26537,-79.686531,39.472384999999996,1,1,0,1,0,0,3.0,4.0,0.0,1.0,1.0,2.0,0.0,11.0,2
-Kinoole Farmer's Market,1990 Kinoole Street,Hilo,Hawaii,Hawaii,96720,-155.07011,19.690456,1,0,0,0,1,0,2.0,2.0,0.0,1.0,4.0,1.0,1.0,11.0,1
 Kinsley Farmers Market,1027 Highway 56,Kinsley,Edwards,Kansas,67547,-99.419853,37.918533000000004,1,0,0,0,0,0,2.0,2.0,0.0,0.0,0.0,0.0,0.0,4.0,0
 Kirkland Wedneseday Market,"Marina Park, 25 lakeshore plz ",Kirkland,King,Washington,98033,-122.20881999999999,47.675495,1,1,0,1,1,1,5.0,4.0,2.0,2.0,1.0,1.0,2.0,17.0,3
 Kirksville Kiwanis Farmers' Market,100 North Elson Street,Kirksville,Adair,Missouri,63501,-92.58429,40.195114000000004,1,0,0,0,0,0,3.0,4.0,2.0,1.0,3.0,2.0,1.0,16.0,0
@@ -2992,7 +2968,6 @@ Lincoln University Farmers Market,900 Leslie Blvd.,Jefferson City,Cole,Missouri,
 Linda Vista Certified Farmers Market,6939 Linda Vista Road,San Diego,San Diego,California,92111,-117.17071999999999,32.785137,1,1,1,1,1,1,5.0,3.0,2.0,1.0,2.0,0.0,2.0,15.0,4
 LINN PLACE MARKET,20TH STREET and PARK PLACE,BIRMINGHAM,Jefferson,Alabama,35203,-86.808929,33.524521,0,1,0,1,0,0,2.0,1.0,0.0,0.0,0.0,0.0,0.0,3.0,2
 Linton Farmers' Market,,Linton,Greene,Indiana,47441,-87.149101,39.039326,1,1,0,1,1,1,6.0,4.0,2.0,1.0,2.0,2.0,3.0,20.0,3
-Lipoa Street Farmer's Market ,95 Lipoa Street,Kihei ,Maui,Hawaii,96753,-156.45258,20.748449,0,0,0,0,0,0,3.0,4.0,2.0,1.0,1.0,0.0,2.0,13.0,0
 Lisbon Farmers Market,800 Main Street,Lisbon,Ransom,North Dakota,58054,-97.68139599999999,46.438499,0,0,0,0,0,1,2.0,3.0,1.0,1.0,2.0,0.0,1.0,10.0,0
 Lisbon Farmers Market,North Main Street,Lisbon,Grafton,New Hampshire,3585,-71.91100300000001,44.2141,0,0,0,0,0,1,1.0,2.0,1.0,0.0,0.0,0.0,0.0,4.0,0
 Lisbon Farmers' Market,19 South Burnham Highway,Lisbon,New London,Connecticut,6351,-72.018692,41.602565999999996,1,0,0,0,0,1,3.0,4.0,3.0,2.0,2.0,2.0,1.0,17.0,0
@@ -3151,10 +3126,6 @@ Main Street Statesboro Farmers Market,2 East Main Street,Statesboro ,Bulloch,Geo
 Main Street Woodbury Farmers Market,Cooper Street and Railroad Avenue,Woodbury,Gloucester,New Jersey,8096,-75.150047,39.8367,1,1,1,1,0,1,3.0,1.0,1.0,1.0,4.0,0.0,1.0,11.0,3
 MainStreet Libertyville Farmers Market,413 N Milwaukee Ave,Liberytville ,Lake,Illinois,60048,-87.95474200000001,42.287243,1,1,0,0,0,1,5.0,4.0,2.0,2.0,2.0,3.0,2.0,20.0,1
 MainStreet's Dowtown Farmers Market,8 Broad Street,Alexander City,Tallapoosa,Alabama,35010,-85.954697,32.944599,0,0,0,1,0,0,3.0,3.0,2.0,2.0,3.0,0.0,0.0,13.0,1
-"Makeke Kapolei, a farmers' & green market",91-5007 Kapolei Parkway,Kapolei,Honolulu,Hawaii,96707,-158.07018,21.328806,1,0,0,1,1,0,4.0,4.0,2.0,2.0,3.0,3.0,2.0,20.0,2
-"Makeke Waianae, a farmers' & green market",86-120 Farrington Highway,Waianae,Honolulu,Hawaii,96792,-158.18236000000002,21.451628,1,0,0,1,1,0,5.0,4.0,2.0,2.0,3.0,2.0,2.0,20.0,2
-Makiki District Park (People's Open Market),1527 Keeaumoku Street,Honolulu,Honolulu,Hawaii,96822,-157.8365,21.30394,1,0,0,1,1,1,3.0,0.0,0.0,0.0,0.0,0.0,0.0,3.0,2
-Maku'u Farmers Market,15-2131 Keaau Pahoa Highway,Pahoa,Hawaii,Hawaii,96778,-154.97198,19.536657,1,0,0,0,1,0,8.0,5.0,3.0,3.0,3.0,2.0,2.0,26.0,1
 Malcolm X Boulevard Community Farmers Market,"Malcolm X Blvd & Chauncey,",Brooklyn,Kings,New York,11233,-73.928185,40.679970000000004,1,1,1,1,1,0,2.0,2.0,2.0,1.0,4.0,1.0,1.0,13.0,4
 Malden Farmers Market,200 Pleasant St,Malden,Middlesex,Massachusetts,2148,-71.072952,42.427044,0,0,0,0,1,1,1.0,1.0,1.0,1.0,0.0,0.0,0.0,4.0,1
 Malone Farmers' Market,Rt. 11 Malone Airport,Malone,Franklin,New York,12953,-74.327324,44.847775,0,1,0,1,1,1,2.0,3.0,1.0,1.0,1.0,2.0,0.0,10.0,3
@@ -3172,7 +3143,6 @@ Manistee Farmers Market,180 Memorial Drive,Manistee ,Manistee,Michigan,49660,-86
 Manistique Farmers' Market,180 N. Maple Street,Manistique,Schoolcraft,Michigan,49854,-86.24359100000001,45.959984000000006,1,1,0,1,0,1,2.0,4.0,0.0,1.0,1.0,2.0,1.0,11.0,2
 Manitou Community Market,,Manitou Springs,El Paso,Colorado,80829,-104.91281000000001,38.858321999999994,1,0,0,0,0,1,3.0,2.0,2.0,1.0,0.0,0.0,1.0,9.0,0
 Mankato Farmers Market,1895 Adams St,Mankato,Blue Earth,Minnesota,56001,-93.950661,44.169483,1,1,0,1,1,1,4.0,3.0,2.0,1.0,2.0,2.0,1.0,15.0,3
-Manoa Valley District Park (People's Open Market),Manoa Rd,Honolulu,Honolulu,Hawaii,96826,-157.808,21.31419,1,0,0,1,1,1,5.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,2
 Mansfield Farmers Market,,Mansfield,Sebastian,Arkansas,72944,-94.25056500000001,35.060103999999995,1,0,0,0,0,1,4.0,3.0,2.0,2.0,3.0,1.0,0.0,15.0,0
 Mansfield Farmers Market,"Public Parking, 80 North Main Street",Mansfield,Bristol,Massachusetts,2048,-71.218002,42.026402000000004,0,1,0,1,0,0,1.0,3.0,0.0,0.0,1.0,0.0,0.0,5.0,2
 Mansfield Farmers Market,703 East Broad Street,Mansfield,Tarrant,Texas,76063,-97.13404799999999,32.564587,1,0,0,0,0,1,5.0,3.0,2.0,2.0,2.0,1.0,2.0,17.0,0
@@ -3368,8 +3338,6 @@ Milford Farmers Market,508 W. Harford Street,Milford ,Pike,Pennsylvania,18337,-7
 Milford MA Farmers Market ,Milford Water Company-Dilla St,Milford,Worcester,Massachusetts,1757,-71.513374,42.16135,1,1,0,1,1,1,2.0,4.0,2.0,1.0,0.0,0.0,2.0,11.0,3
 Milford Summer Farmers' Market,"Granite Town Plaza, 191 Elm St",Milford ,Hillsborough,New Hampshire,3055,-71.667419,42.839264,1,0,0,0,1,1,3.0,4.0,1.0,2.0,2.0,3.0,0.0,15.0,1
 Milford Winter Market,"1 Union Square, Town Hall, 3rd Floor Auditorium",Milford ,Hillsborough,New Hampshire,3055,-71.648987,42.835361,1,0,0,0,1,1,3.0,4.0,1.0,2.0,0.0,3.0,1.0,14.0,1
-Mililani District Park (People's Open Market),94-1150 Lanikuhana Ave.,Mililani  ,Honolulu,Hawaii,96789,-158.0183,21.440681,1,0,0,1,1,1,6.0,1.0,0.0,0.0,1.0,0.0,0.0,8.0,2
-Mililani Farmers' Market,,Mililani,Honolulu,Hawaii,,-158.01527,21.451332,1,0,0,1,0,1,4.0,3.0,0.0,0.0,2.0,0.0,2.0,11.0,1
 "Mill City Farmers Market, Inc.",704 South 2nd Street,Minneapolis,Hennepin,Minnesota,55401,-93.256279,44.97821,1,1,1,1,1,1,8.0,5.0,3.0,3.0,3.0,3.0,2.0,27.0,4
 Mill City Grows Mobile Market,,Lowell ,Middlesex,Massachusetts,1851,-71.31617,42.633423,1,1,0,1,1,1,4.0,5.0,2.0,2.0,0.0,1.0,3.0,17.0,3
 Mill Street Market,Mill Street between Huntsville and Emma Avenues,Springdale,Washington,Arkansas,72764,-94.130402,36.186813,1,0,0,1,1,1,4.0,3.0,3.0,1.0,2.0,1.0,2.0,16.0,2
@@ -3834,7 +3802,6 @@ Old North End Farmers' Market,Dewey Park,Burlingon,Chittenden,Vermont,5401,-73.2
 Old Oakland Farmers' Market,9th St. & Broadway St.,Oakland,Alameda,California,94607,-122.27325,37.800872999999996,1,1,1,1,1,1,3.0,3.0,2.0,2.0,4.0,3.0,1.0,18.0,4
 Old Poway Farmers Market,Midland Rd. & Temple,Poway,San Diego,California,92074,-117.03613999999999,32.969288,1,1,1,1,0,0,7.0,4.0,2.0,2.0,3.0,3.0,2.0,23.0,3
 Old Rochester Farmers' Market,"135 Marion Rd.,",Mattapoisett,Plymouth,Massachusetts,2739,-70.779655,41.67244,1,0,0,1,0,1,3.0,4.0,3.0,2.0,2.0,3.0,2.0,19.0,1
-Old Stadium Park (People's Open Market),2237 South King Street,Honolulu,Honolulu,Hawaii,,-157.82732,21.292322,1,0,0,1,1,1,5.0,1.0,0.0,0.0,1.0,0.0,0.0,7.0,2
 Old Town Alexandria Farmers' Market,301 King Street,Alexandria,Alexandria,Virginia,22314,-77.043015,38.804840000000006,1,0,0,0,1,1,4.0,4.0,2.0,3.0,3.0,3.0,2.0,21.0,1
 Old Town Certified Farmers' Market,F Street between 2nd and 3rd,Eureka,Humboldt,California,95501,-124.16428,40.804317,0,1,0,1,1,1,7.0,3.0,1.0,1.0,3.0,3.0,0.0,18.0,3
 Old Town Farmers Market,115 Caldwell Street,Rock Hill,York,South Carolina,29730,-81.02578000000001,34.925518,1,1,0,1,1,1,3.0,5.0,2.0,2.0,2.0,2.0,1.0,17.0,3
@@ -3970,7 +3937,6 @@ Palmyra Farmers Market,E MAIN STREET VILLAGE PARK,PALMYRA,Wayne,New York,14522,-
 Palmyra Producer Only Farmers Market,220 Campbelltown Road,Palmyra,Lebanon,Pennsylvania,17078,-76.58847,40.300453000000005,1,0,0,0,1,1,5.0,4.0,0.0,3.0,1.0,2.0,1.0,16.0,1
 Palmyra Real Food Emporium,707 East Broad Street,Palmyra,Lebanon,Pennsylvania,17078,-76.589127,40.314285,1,0,0,0,1,1,8.0,5.0,1.0,2.0,0.0,3.0,3.0,22.0,1
 Palo Alto College Farmers Market,1400 W Villaret Blvd,San Antonio,Bexar,Texas,78224,-98.543053,29.321634000000003,1,0,1,1,1,0,2.0,2.0,0.0,1.0,0.0,0.0,1.0,6.0,3
-Palolo Valley District Park (People's Open Market),2007 Palolo Avenue,Honolulu,Honolulu,Hawaii,96813,-157.79731999999998,21.29891,1,0,0,1,1,1,6.0,0.0,0.0,0.0,1.0,0.0,0.0,7.0,2
 Palos Heights Farmer's Market,6601 W 127th Street ,Palos Heights ,Cook,Illinois,60463,-87.78312700000001,41.660465,1,0,0,0,1,1,5.0,4.0,2.0,0.0,0.0,3.0,2.0,16.0,1
 Palos Verdes Farmers Market,27118 Silver Spur Road,Rolling Hills Estates ,Los Angeles,California,90274,-118.37373000000001,33.779334999999996,1,0,0,0,1,0,4.0,4.0,2.0,2.0,3.0,3.0,2.0,20.0,1
 Paola Farmers Market,Pearl Street   City Square,Paola,Miami,Kansas,66071,-94.87848699999999,38.572025,0,0,0,1,0,1,3.0,3.0,2.0,1.0,2.0,2.0,1.0,14.0,1
@@ -4030,7 +3996,6 @@ Pearl Farmers Market,6th Street and Peoria Avenue,Tulsa,Tulsa,Oklahoma,74120,-95
 Pearl Market,1 Capitol Square,Columbus ,Franklin,Ohio,43215,-82.999268,39.962139,1,0,0,0,1,1,4.0,4.0,3.0,1.0,2.0,1.0,3.0,18.0,1
 Pearl River Market,233 Second Street,Columbia,Marion,Mississippi,39429,-89.836113,31.251987,1,0,0,0,0,0,5.0,3.0,2.0,2.0,2.0,0.0,1.0,15.0,0
 Pearland Old Townsite Farmers Market,2243 Grand Blvd.,Pearland,Brazoria,Texas,77581,-95.283501,29.5658,1,0,0,0,0,1,5.0,4.0,3.0,2.0,3.0,2.0,2.0,21.0,0
-Pearlridge Farmers Market,98-1005 Moanalua Rd,Aiea ,Honolulu,Hawaii,96701,-157.94168,21.381691,1,0,0,0,0,1,4.0,3.0,2.0,2.0,3.0,2.0,1.0,17.0,0
 Peculiar Farmers & Artisians Market,500 Schug Ave,Peculiar,Cass,Missouri,,-94.45740500000001,38.723296999999995,1,0,0,0,0,0,3.0,3.0,2.0,1.0,0.0,1.0,0.0,10.0,0
 Pedernales Farmers Market,23526 TX-71,Spicewood,Blanco,Texas,78669,-98.084869,30.387133000000002,1,0,0,0,0,0,5.0,3.0,3.0,1.0,2.0,3.0,0.0,17.0,0
 Pee Dee State Farmers Market,2513 West Lucas Street,Florence,Florence,South Carolina,29501,-79.814003,34.241699,1,1,1,1,1,1,4.0,4.0,1.0,2.0,2.0,2.0,2.0,17.0,4
@@ -4164,7 +4129,6 @@ Poestenkill Farmers Market,38 Davis Drive,Poestenkill,Rensselaer,New York,12140,
 Point Pleasant Beach Farmers Market,601 Arnold Ave.,Point Pleasant Beach,Ocean,New Jersey,8742,-74.049973,40.092009999999995,1,1,0,0,0,0,3.0,3.0,2.0,1.0,1.0,0.0,2.0,12.0,1
 Point Reyes Farmers Market,11250 Hwy 1,Point Reyes Station,Marin,California,94956,-122.80532,38.068062,1,1,0,1,1,1,4.0,3.0,1.0,2.0,1.0,1.0,2.0,14.0,3
 Point Richmond CFM,Park Place and West Richmond Avenue,Point Richmond,Contra Costa,California,,-122.3851,37.926258000000004,1,1,0,1,1,1,1.0,1.0,1.0,1.0,1.0,0.0,1.0,6.0,3
-Pokai Bay Beach Park (People's Open Market),85-037 Pokai Bay Road,Waianae,Honolulu,Hawaii,96792,-158.18843,21.442923,1,0,0,1,1,1,5.0,0.0,0.0,0.0,0.0,0.0,0.0,5.0,2
 Poland Farmers Market,1457 Maine St,Poland,Androscoggin,Maine,4274,-70.411682,44.070656,1,0,0,0,1,0,3.0,5.0,2.0,1.0,0.0,2.0,0.0,13.0,1
 Polk City Farmers Market,Town Square,Polk City,Polk,Iowa,50226,-93.713661,41.771137,1,0,0,0,0,0,3.0,3.0,3.0,1.0,3.0,0.0,1.0,14.0,0
 Polk County Bounty Market - Dallas ,182 SW Academy Street,Dallas,Polk,Oregon,97338,-123.31685,44.924362,1,1,1,1,1,0,5.0,4.0,2.0,2.0,3.0,1.0,1.0,18.0,4
@@ -4273,7 +4237,6 @@ Quantico Farmers Market,3500 Russell Rd,Quantico ,Stafford,Virginia,22134,-77.34
 Quapaw Farmers Market,326 N Main St,Quapaw,Ottawa,Oklahoma,74363,-94.787415,36.955063,1,0,0,1,1,0,7.0,3.0,2.0,2.0,1.0,1.0,3.0,19.0,2
 Quarry Farmers & Ranchers Market,255 E Basse Road,San Antonio,Bexar,Texas,78209,-98.480972,29.494038,1,0,0,0,0,1,4.0,4.0,2.0,2.0,3.0,2.0,2.0,19.0,0
 Queen Anne Farmers Market,W Crockett Street and Queen Anne Ave N,Seattle ,King,Washington,98109,-122.3576,47.637173,1,1,0,1,1,1,5.0,4.0,0.0,2.0,1.0,1.0,3.0,16.0,3
-Queen Kapiolani Park (People's Open Market),Monsarrat and Paki Streets,Honolulu,Honolulu,Hawaii,96822,-157.81638,21.268812,1,0,0,1,1,1,4.0,1.0,0.0,0.0,1.0,0.0,0.0,6.0,2
 Queens Botanical Garden's Down to Earth Farmers Market,Dahlia Avenue at Main Street,Queens,Queens,New York,11355,-73.826431,40.751785,1,1,1,1,1,1,2.0,2.0,0.0,1.0,1.0,0.0,0.0,6.0,4
 Queensbury Farmers Market,"Sweet Basil parking lot, Route9, Queensbury",Queensbury,Warren,New York,,-73.683083,43.342327000000004,1,1,0,0,1,1,2.0,2.0,0.0,1.0,1.0,0.0,0.0,6.0,2
 Quincy Certified Farmers' Market,530 W. Main St.,Quincy,Plumas,California,95971,-120.95017,39.937092,1,1,0,1,1,1,2.0,1.0,2.0,0.0,1.0,1.0,1.0,8.0,3
@@ -4475,7 +4438,6 @@ Route 66 Farmer's Market,920 Plaza Drive,St. Clair,Franklin,Missouri,63077,-90.9
 Route 9 Farmers Market,26 Karlyn Drive,New Castle ,New Castle,Delaware,19720,-75.561081,39.702389000000004,1,0,0,0,1,1,2.0,0.0,0.0,0.0,0.0,2.0,1.0,5.0,1
 Rowley Farmers Market,rowley common  main street,Rowley ,Essex,Massachusetts,1969,-70.881958,42.713631,1,1,0,1,0,0,3.0,3.0,0.0,1.0,2.0,0.0,2.0,11.0,2
 Roy Wilkins Park Farmer's Market,Merrick and Baisley Boulevards,Queens,Queens,New York,11434,-73.76975999999999,40.683727000000005,0,0,1,1,1,1,1.0,1.0,0.0,0.0,0.0,0.0,0.0,2.0,3
-Royal Kunia Park-n-Ride (People's Open Market),Kupuna Lp/Kupuohi Street,Waipahu,Honolulu,Hawaii,96797,-158.03265,21.389120000000002,1,0,0,1,1,1,4.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,2
 Royal Oak Farmers Market,316 East 11 Mile Road,Royal Oak,Oakland,Michigan,48067,-83.14115100000001,42.489742,1,1,0,1,0,1,8.0,5.0,3.0,3.0,3.0,3.0,3.0,28.0,2
 Royal Town Farmer's Market,20955 Wyoming,Ferndale,Oakland,Michigan,48220,-83.162102,42.447941,1,0,0,1,1,1,2.0,1.0,0.0,0.0,0.0,0.0,0.0,3.0,2
 Royalton Farmers Market,Windsor street,S Royalton ,Windsor,Vermont,5068,-72.521461,43.820029999999996,1,1,0,0,0,0,3.0,3.0,2.0,1.0,2.0,2.0,1.0,14.0,1
@@ -4531,7 +4493,6 @@ Salmon Creek Farmers' Market,1309 NE 134th Street,Vancouver,Clark,Washington,986
 Salmon Creek Farmers' Market at Legacy Hospital,2211 NE 139th Street,Vancouver,Clark,Washington,98686,-122.64855,45.720387,1,1,0,1,1,1,4.0,3.0,2.0,1.0,2.0,0.0,2.0,14.0,3
 Salomon Farm Park Farmers' Market ,817 West Dupont Road,Fort Wayne,Allen,Indiana,46825,-85.152679,41.17564,1,0,0,0,0,1,3.0,4.0,1.0,1.0,1.0,1.0,1.0,12.0,0
 Salt Lake City Downtown Farmers Market,Historic Pioneer Park (300 S. 300 W.),Salt Lake City,Salt Lake,Utah,84101,-111.9012,40.761501,1,0,0,0,1,1,7.0,4.0,3.0,2.0,3.0,3.0,2.0,24.0,1
-Salt Lake Municipal Lot (People's Open Market),5337 Likini Street,Honolulu,Honolulu,Hawaii,96818,-157.90413,21.346157,1,0,0,1,1,1,5.0,1.0,0.0,0.0,2.0,0.0,0.0,8.0,2
 Sammamish Farmers Market,801 228th Ave SE,Sammamish,King,Washington,98075,-122.0356,47.601772,1,1,0,1,0,1,3.0,3.0,2.0,2.0,2.0,2.0,2.0,16.0,2
 San Antonio Farmers Market Association - Leon Valley,6427 Evers Rd.,Leon Valley,Bexar,Texas,78238,-98.613281,29.500776000000002,1,0,1,1,1,1,2.0,1.0,0.0,1.0,1.0,0.0,0.0,5.0,3
 San Antonio Farmers Market at St. Matthews,11121 Wurzbach,San Antonio,Bexar,Texas,78230,-98.550285,29.543276000000002,1,0,1,1,1,1,2.0,2.0,0.0,1.0,1.0,1.0,0.0,7.0,3
@@ -5222,7 +5183,6 @@ The Sands Farmers' Market,345 N. Arlington Avenue,Reno,Washoe,Nevada,89501,-119.
 The Saturday Market at Paradise,3293 Lincoln Highway East,Paradise,Lancaster,Pennsylvania,17562,-76.10818499999999,40.005534999999995,1,0,0,1,1,1,4.0,4.0,3.0,2.0,3.0,1.0,1.0,18.0,2
 The Seminole Wednesday Market,9100 113th St,Seminole,Pinellas,Florida,33772,-82.796387,27.855798999999998,1,0,0,0,0,1,8.0,5.0,3.0,3.0,3.0,1.0,2.0,25.0,0
 The Silver City Farmers' Market,Hamilton Street and Hopewell St,Taunton,Bristol,Massachusetts,2780,-71.094872,41.913429,1,1,0,1,1,1,3.0,4.0,2.0,1.0,0.0,1.0,1.0,12.0,3
-The South Kona Green Market,82-6188 Mamalahoa Highway,Captain Cook,Hawaii,Hawaii,96704,-155.9113,19.489786,1,0,0,0,1,1,4.0,4.0,3.0,1.0,3.0,2.0,2.0,19.0,1
 The South of the James Farmers Market,New Kent Avenue & 42nd Street,Richmond,Richmond,Virginia,23225,-77.47657,37.520934999999994,1,0,0,0,1,1,5.0,5.0,3.0,3.0,3.0,3.0,2.0,24.0,1
 The Springs Community Farmers' Market ,Parking lot at Boyes Blvd & Hwy 12,Boyes Hot Springs ,Sonoma,California,95476,-122.48206,38.314331,1,1,1,1,1,1,6.0,5.0,2.0,3.0,2.0,2.0,2.0,22.0,4
 The Territory Farmers' Market,2000 Territory Drive,Galena,Jo Daviess,Illinois,61036,-90.315002,42.404758,1,0,0,0,0,0,3.0,3.0,2.0,1.0,2.0,2.0,1.0,14.0,0
@@ -5497,7 +5457,6 @@ Visalia Farmers Market- Downtown Thursday,North and South 100 Blocks of Church S
 Visalia Farmers Market- Sears Saturday Market,5401 Mooney Blvd.,Visalia,Tulare,California,93277,-119.31406000000001,36.298778999999996,1,1,1,1,1,1,5.0,4.0,3.0,2.0,3.0,2.0,1.0,20.0,4
 Visalia Farmers Market- TuesdayTulare Outlet Market,1407 Retherford St.,Tulare,Tulare,California,93274,-119.33566,36.229229,1,1,1,1,1,1,4.0,4.0,2.0,1.0,0.0,0.0,1.0,12.0,4
 Vista Farmers Market,325 South Melrose Drive,Vista,San Diego,California,92081,-117.25581000000001,33.191029,1,1,1,1,1,1,5.0,4.0,3.0,2.0,3.0,3.0,3.0,23.0,4
-Volcano Farmers Market,14-4030 wright road,volcano,Hawaii,Hawaii,96785,-155.24928,19.464087,1,0,0,0,1,0,3.0,4.0,2.0,3.0,2.0,3.0,2.0,19.0,1
 Volney Farmers Market,1445 County Route  6,Fulton,Oswego,New York,13069,-76.358406,43.341507,1,0,1,1,0,0,2.0,2.0,0.0,1.0,0.0,0.0,1.0,6.0,2
 Volunteer fire dept.farmers market,3135 forge road,toano,James City,Virginia,23168,-76.807503,37.381401000000004,1,0,0,0,0,0,6.0,4.0,0.0,2.0,2.0,3.0,1.0,18.0,0
 Voluntown Farmers' Market ,195 Main Street,Voluntown,New London,Connecticut,6384,-71.865501,41.573914,1,1,1,1,0,0,3.0,3.0,2.0,1.0,0.0,2.0,1.0,12.0,3
@@ -5511,16 +5470,7 @@ Wadena Farmers Market,,Wadena,Wadena,Minnesota,56482,-95.13745899999999,46.44150
 Wadesville Farmers Market,7238 Hwy 66,Wadesville,Posey,Indiana,47638,-87.788048,38.10487,0,1,0,0,0,0,3.0,3.0,2.0,1.0,1.0,0.0,0.0,10.0,1
 Wadsworth Farmers Market,151 Main Street,Wadsworth,Medina,Ohio,44281,-81.732315,41.028683,1,0,0,0,0,1,3.0,4.0,2.0,1.0,3.0,1.0,1.0,15.0,0
 Wagner Farm Arboretum Farmers Market,46 Mountain Blvd,Warren,Somerset,New Jersey,7059,-74.490707,40.618587,1,0,0,0,0,1,5.0,4.0,0.0,2.0,0.0,2.0,3.0,16.0,0
-Wahiawa District Park (People's Open Market),1139 A Kilani Avenue,Wahiawa,Honolulu,Hawaii,96786,-158.02258,21.500381,1,0,0,1,1,1,3.0,1.0,0.0,0.0,2.0,0.0,0.0,6.0,2
 Wahoo Farmers Market,Corner of 7th and Beech,Wahoo,Saunders,Nebraska,68066,-96.617393,41.212078000000005,1,0,0,1,1,0,3.0,2.0,2.0,1.0,1.0,0.0,0.0,9.0,2
-Waianae Farmers' Market/Makeke Waianae,86-120 Farrington Hwy.,Waianae,Honolulu,Hawaii,96792,-158.18378,21.43512,1,0,0,1,1,1,3.0,4.0,2.0,2.0,3.0,2.0,2.0,18.0,2
-Waiau District Park (People's Open Market),98-1650 Kaahumanu Street,Pearl City,Honolulu,Hawaii,96782,-157.95299,21.402403,1,0,0,1,1,1,5.0,1.0,0.0,0.0,2.0,0.0,0.0,8.0,2
-Waikele Community Park (People's Open Market),94-870 Lumiana Street,Waiapahu,Honolulu,Hawaii,96767,-157.97173,21.453709,1,0,0,1,1,1,4.0,0.0,0.0,0.0,0.0,0.0,0.0,4.0,2
-Waimanalo Beach Park (People's Open Market),41-741 Kalanianaole Highway.,Waimanalo,Honolulu,Hawaii,96795,-157.6946,21.331444,1,0,0,1,1,1,5.0,0.0,0.0,0.0,2.0,0.0,0.0,7.0,2
-"Waimea Homestead Farmers Market, Inc.", 67-1229 Mamalahoa Hwy,Kamuela,Hawaii,Hawaii,96743,-155.66836999999998,20.018309,1,0,0,0,0,1,6.0,3.0,1.0,1.0,1.0,0.0,2.0,14.0,0
-Waimea Midweek Farmers Market,67-129 Pukalani Road,Kamuela,Hawaii,Hawaii,96743,-155.66296,20.018116,1,0,0,1,0,0,6.0,4.0,2.0,2.0,1.0,2.0,2.0,19.0,1
-Waimea Town Market at Parker School,65-1224 Lindsey Rd,Kamuela,Hawaii,Hawaii,96743,-155.66974,20.022263,1,0,0,0,0,1,4.0,3.0,2.0,2.0,1.0,2.0,2.0,16.0,0
-Waipahu District Park (People's Open Market),94-230 Paiwa Street,Waipahu,Honolulu,Hawaii,96767,-157.99945,21.387838000000002,1,0,0,1,1,1,4.0,1.0,0.0,0.0,1.0,0.0,0.0,6.0,2
 Waitsfield Farmers' Market ,"Mad River Green, Rte 100S ",Waitsfield ,Washington,Vermont,5673,-72.83847,44.183716,1,0,0,0,0,1,5.0,5.0,2.0,2.0,3.0,3.0,3.0,23.0,0
 Wake Forest Farmers Market,150 N. White St.,Wake Forest,Wake,North Carolina,27587,-78.508759,35.980488,1,0,0,1,0,1,5.0,3.0,3.0,2.0,3.0,3.0,2.0,21.0,1
 Wakefield ,8100 Braddock Road , Annandale ,Fairfax,Virginia,22003,-77.196228,38.832802,1,0,0,0,0,1,3.0,4.0,0.0,2.0,1.0,2.0,1.0,13.0,0

@@ -1,4 +1,4 @@
-MarketName,street,city,County,State,zip,x,y,Credit,WIC,WICcash,SFMNP,SNAP,has_website,Is market,Produce,Confectionary,Household,Dairy,Plants,Meat,Other,product_count,alt_pay_methods
+MarketName,street,city,County,State,zip,x,y,Credit,WIC,WICcash,SFMNP,SNAP,has_website,Has Market,Produce,Confectionary,Household,Dairy,Plants,Meat,Other,product_count,alt_pay_methods
  Caledonia Farmers Market Association - Danville,,Danville,Caledonia,Vermont,5828,-72.140335,44.411037,1,1,0,1,0,1,1,5.0,4.0,3.0,2.0,2.0,2.0,2.0,20.0,2
  Stearns Homestead Farmers' Market,6975 Ridge Road,Parma ,Cuyahoga,Ohio,,-81.73394,41.374802,1,0,0,1,0,1,1,3.0,4.0,2.0,1.0,1.0,1.0,0.0,12.0,1
 10th Steet Community Farmers Market,10th Street and Poplar,Lamar ,Barton,Missouri,64759,-94.27462,37.495628,1,0,0,0,0,0,1,3.0,3.0,2.0,1.0,1.0,2.0,1.0,13.0,0

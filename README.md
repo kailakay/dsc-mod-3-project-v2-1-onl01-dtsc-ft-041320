@@ -1,190 +1,212 @@
+# Microsoft Movie Studios:
+## Preliminary Case Study
 
-# Module 3 Final Project
+<img src='images/Wonder_Woman_(2017_film).jpg' width = '%' />
 
+[Medium Blog Post](https://medium.com/@kekay0528/my-first-data-science-project-94aa5b02709d)
 
-## Introduction
+[Presentation PDF](https://github.com/kailakay/dsc-mod-1-project-v2-1-onl01-dtsc-ft-041320/blob/master/Microsoft%20Movie%20Studio%20Presentation.pdf)
 
-In this lesson, we'll review all the guidelines and specifications for the final project for Module 3.
+[Video Walkthrough](https://voicethread.com/share/14445223/)
 
+## Purpose
+Microsoft has hired a team of green Data Scientists to evaluate various aspects of the movie industry in the hopes of finding their next big venture. Armed with a few starter data sets on box office information, we are tasked to perform preliminary analysis and interpret what types of movies Microsoft Studios should focus on creating. 
+<!------------------------------------------>
+### Data Description
 
-## Objectives
+<details><summary style="font-size: 18px"> 
+List of Files:</summary> 
 
-- Understand all required aspects of the Final Project for Module 3
-- Understand all required deliverables
-- Understand what constitutes a successful project
+```
+|-bom.movie_gross.csv.gz
+|-imdb.name.basics.csv.gz
+|-imdb.title.akas.csv.gz
+|-imdb.title.basics.csv.gz
+|-imdb.title.crew.csv.gz
+|-imdb.title.principals.csv.gz
+|-imdb.title.ratings.csv.gz
+|-rt.movie_info.tsv.gz
+|-rt.reviews.tsv.gz
+|-tmdb.movies.csv.gz
+|-tn.movie_budgets.csv.gz
+```
+</details>
+<!------------------------------------------>
 
-## Final Project Summary
+### Main Questions:
 
-Congratulations! You've made it through another _intense_ module, and now you're ready to show off your newfound Machine Learning skills!
+[Question 1 Notebook Link](https://github.com/kailakay/dsc-mod-1-project-v2-1-onl01-dtsc-ft-041320/blob/master/Question%201%20L.ipynb)
+<details><summary style="font-size: 24px">
+Question 1: {What are the most popular genres?} </summary> 
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-mod-3-project-v2-1/master/smart.gif)
+```
+In order to fully explore the popularity of genre, we wanted to answer three sub-questions:
 
-All that remains for Module 3 is to complete the final project!
+- What genres are the most popular for consumers?
+- Are more popular genres higher grossing?
+- Does the production budget correlate to the popularity of a genre?
+```
 
-## The Project
+#### Tables Used:
 
-The main goal of this project is to create a classification model. For this project you have the choice to either:
+```
+|The Movie Database - tmdb.movies.csv.gz
+```
+#### EDA
 
-- choose a data set from a curated list
-- choose your own data set _outside_ of the curated list. 
+Utilizing *The Movie Database* dataset, we were able to extract genre ID keys and pair them with genre names by utilizing an API key to pull in information from their website. *The Movie Database* has its own formula for calculating popularity that includes factors such as daily views and votes, the number of times a movie was favorited, and the release date - among others. 
 
-The data guidelines for either option are shown below
+We then used this quanititative popularity score per movie and extracted the respective genres. After grouping the data by genre, we then calculated the mean popularity of our correlated data set to create the table below. 
 
-For this project, you're going to select a dataset of your choosing and create a classification model. You'll start by identifying a problem you can solve with classification, and then identify a dataset. You'll then use everything you've learned about Data Science and Machine Learning thus far to source a dataset, preprocess and explore it, and then build and interpret a classification model that answers your chosen question.
+<img src='images/q1-genre-pop-all.png'/>
 
-### a. Choosing the data from a curated list
+We filtered that data down to the top 9 genres, and compared them side by side in a boxen chart with a scattered bar chart. These two charts allowed us to visualize the data most comprehensively.
 
-You are allowed to select one of the four data sets described below. Each comes with its own advantages and disadvantages, and, of course, its own associated business problem and stakeholders. It may be desirable to flesh out your understanding of the audience or the business proposition a little more than sketched out here. If you select one of these four data sets, you **need no further approval from your instructor**.
+*On the left plot, the black lines show the median while the blue line shows the mean.*
 
+<img src='images/q1-top-9-genre-pop.png'/>
 
-1) [Chicago Car Crash Data](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if). Note this links also to [Vehicle Data](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Vehicles/68nd-jvt3) and to [Driver/Passenger Data](https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d).
+Finally, we linked this data with our cleaned finance data, which allowed us to look directly at the finance information of the most popular genres.  
 
-Build a classifier to predict the primary contributory cause of a car accident, given information about the car, the people in the car, the road conditions etc. You might imagine your audience as a Vehicle Safety Board who's interested in reducing traffic accidents, or as the City of Chicago who's interested in becoming aware of any interesting patterns. Note that there is a **multi-class** classification problem. You will almost certainly want to bin or trim or otherwise limit the number of target categories on which you ultimately predict. Note e.g. that some primary contributory causes have very few samples.
+<img src='images/q1-genre-pop-fin.png' />
 
-2) [Terry Stops Data](https://catalog.data.gov/dataset/terry-stops).
-In [*Terry v. Ohio*](https://www.oyez.org/cases/1967/67), a landmark Supreme Court case in 1967-8, the court found that a police officer was not in violation of the "unreasonable search and seizure" clause of the Fourth Amendment, even though he stopped and frisked a couple of suspects only because their behavior was suspicious. Thus was born the notion of "reasonable suspicion", according to which an agent of the police may e.g. temporarily detain a person, even in the absence of clearer evidence that would be required for full-blown arrests etc. Terry Stops are stops made of suspicious drivers.
+#### Conclusion
 
-Build a classifier to predict whether an arrest was made after a Terry Stop, given information about the presence of weapons, the time of day of the call, etc. Note that this is a **binary** classification problem.
+After cleaning and exploring the data, we found that **Action** was the most popular genre among consumers, followed by **Animation** and **Drama**. We also found that generally, popular genres were also lucrative financially - with a few outlying instances that showed higher rates of hit or miss such as Drama or the Thriller and Horror genres. 
 
-Note that this dataset also includes information about gender and race. You **may** use this data as well. You may, e.g. pitch your project as an inquiry into whether race (of officer or of subject) plays a role in whether or not an arrest is made.
+#### Recommendation
 
-If you **do** elect to make use of race or gender data, be aware that this can make your project a highly sensitive one; your discretion will be important, as well as your transparency about how you use the data and the ethical issues surrounding it.
+While we do not recommend basing business decisions solely off of the popularity of a genre, the data indicates that we can generally assume popular genres are a safe investment. 
 
-3) [Customer Churn Data](https://www.kaggle.com/becksddf/churn-in-telecoms-dataset)
+</details>
 
-Build a classifier to predict whether a customer will ("soon") stop doing business with SyriaTel, a telecommunications company. Note that this is a **binary** classification problem.
+<!------------------------------------------>
+[Question 2 Notebook Link](https://github.com/kailakay/dsc-mod-1-project-v2-1-onl01-dtsc-ft-041320/blob/master/Question%202.ipynb)
 
-Most naturally, your audience here would be the telecom business itself, interested in losing money on customers who don't stick around very long. Are there any predictable patterns here?
+<details><summary style="font-size: 24px">
+Question 2:  {What are the top performing genres financially?} </summary> 
 
-4) [Tanzanian Water Well Data](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23/) (*active competition*!)
-Tanzania, as a developing country, struggles with providing clean water to its population of over 57,000,000. There are many waterpoints already established in the country, but some are in need of repair while others have failed altogether.
+```
+In order to fully explore the aspects of crew on film success, we wanted to answer two sub-questions:
 
-Build a classifier to predict the condition of a water well, using information about the sort of pump, when it was installed, etc. Note that this is a **ternary** classification problem.
+- Does staffing the production with more writers or directors influence profit?
+- Is there an optimal writer/director ratio for maximizing profitability?
+```
 
+### Tables Used:
 
-### b. Selecting a Data Set _Outside_ of the Curated List
+```
+|Internet Movie Database - imdb.title.basics.csv.gz
+|Box Office Mojo - bom.movie_gross.csv.gz
+|The Internet Movie Database - tn.movie_budgets.csv.gz
+```
 
-We encourage you to be very thoughtful when identifying your problem and selecting your data set--an overscoped project goal or a poor data set can quickly bring an otherwise promising project to a grinding halt. **If you are going to choose your own data set, you'll need to run it by your instructor for approval**.
+### EDA
 
-To help you select an appropriate data set for this project, we've set some guidelines:
+We started by cleaning our data and combining the relevant information into one table. We then broke down all of the information by genre, and calculated the ROI per movie based off of the financial information that we were provided. 
 
-1. Your dataset should work for classification. The classification task can be either binary or multiclass, as long as it's a classification model.   
+<img src='images/q2-genre-fin-info.png' />
 
-2. Your dataset needs to be of sufficient complexity. Try to avoid picking an overly simple dataset. Try to avoid extremely small datasets, as well as the most common datasets like titanic, iris, MNIST, etc. We want to see all the steps of the Data Science Process in this project--it's okay if the dataset is mostly clean, but we expect to see some preprocessing and exploration. See the following section, **_Data Set Constraints_**, for more information on this.   
+After charting the mean gross for each of the 19 genres that were in our database, we then graphed the top 7 grossing genres by mean - as seen below:
 
-3. On the other end of the spectrum, don't pick a problem that's too complex, either. Stick to problems that you have a clear idea of how you can use machine learning to solve it. For now, we recommend you stay away from overly complex problems in the domains of Natural Language Processing or Computer Vision--although those domains make use of Supervised Learning, they come with a lot of other special requirements and techniques that you don't know yet (but you'll learn soon!). If you're chosen problem feels like you've overscoped, then it probably is. If you aren't sure if your problem scope is appropriate, double check with your instructor!  
+<img src='images/q2-top-7-genres.png' width='55%' height='50%' />
 
-#### Data Set Constraints
+Next, we looked at the mean production budget by genre in order to investigate the correlation of the production budget to the gross. As you can see below, the 5 genres that had the highest production budget also showed up in the top 7 grossing genres. 
 
-When selecting a data set, be sure to take into consideration the following constraints:
+<img src='images/q2-genre-budget.png' width='50%' height='50%' />
 
-1. Your data set can't be one we've already worked with in any labs.
-2. Your data set should contain a minimum of 1000 rows.    
-3. Your data set should contain a minimum of 10 predictor columns, before any one-hot encoding is performed.   
-4. Your instructor must provide final approval on your data set.
+Finally, we calculated the mean ROI per genre and graphed the top 6 grossing genres by ROI using a violin plot, shown below.
 
-#### Problem First, or Data First?
+The width of the plot indicates the proportion of instances that lie within that range, the black line shows the distribution of the interquartile range, while the white dot shows the median of the data. 
 
-There are two ways that you can about getting started: **_Problem-First_** or **_Data-First_**.
+<img src='images/q2-roi-violin.png' />
 
-**_Problem-First_**: Start with a problem that you want to solve with classification, and then try to find the data you need to solve it.  If you can't find any data to solve your problem, then you should pick another problem.
+### Conclusion
 
-**_Data-First_**: Take a look at some of the most popular internet repositories of cool data sets we've listed below. If you find a data set that's particularly interesting for you, then it's totally okay to build your problem around that data set.
+We were interested to see that the **Science Fiction** genre was not relatively popular among consumers in our dataset, but that it showed as a positive financial prospect. I believe that in order to further interpret this data, we would need to broaded our datasets in regards to both finances and genre popularity.
 
-There are plenty of amazing places that you can get your data from. We recommend you start looking at data sets in some of these resources first:
+However, we also noted that while **Action** was highly popular, it's likely that those high popularity ratings are inclinated towards high budget films. 
 
-* [UCI Machine Learning Datasets Repository](https://archive.ics.uci.edu/ml/datasets.html)
-* [Kaggle Datasets](https://www.kaggle.com/datasets)
-* [Awesome Datasets Repo on Github](https://github.com/awesomedata/awesome-public-datasets)
-* [New York City Open Data Portal](https://opendata.cityofnewyork.us/)
-* [Inside AirBNB ](http://insideairbnb.com/)
+### Recommendation
 
+While financial information does not showcase the entire picture in terms of success, our data shows that **Animation** has the most financial promise with an average ROI of 145%, while **Musicals** should be saved for niche audiences. 
 
-## The Deliverables
+</details>
+<!------------------------------------------>
 
-For online students, your completed project should contain the following four deliverables:
+[Question 3 Notebook Link](https://github.com/kailakay/dsc-mod-1-project-v2-1-onl01-dtsc-ft-041320/blob/master/Question%203%20P.ipynb)
 
-1. A **_Jupyter Notebook_** containing any code you've written for this project. This work will need to be pushed to a public GitHub repository dedicated for this project.
+<details><summary style="font-size: 24px">
+Question 3: {Does crew size have an impact on a films success?} </summary> 
 
-2. An organized **README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository. 
+```
+In order to fully explore the financial aspects by genre, we wanted to answer three sub-questions:
 
-3. A **_[Blog Post](https://github.com/learn-co-curriculum/dsc-welcome-blogging-v2-1)_**.
+- What are the mean production budgets and gross per genre?
+- Does production budget impact overall gross?
+- What is the Return of Investment(ROI) per genre?
+```
 
-4. An **_"Executive Summary" PowerPoint Presentation_** that gives a brief overview of your problem/dataset, and each step of the OSEMN process.
+### Tables Used:
 
-Note: On-campus students may have different deliverables, please speak with your instructor.
+```
+|Internet Movie Database - imdb.title.basics.csv.gz
+|Internet Movie Database - imdb.title.crew.csv.gz
+```
 
-### Jupyter Notebook Must-Haves
+### EDA
 
-For this project, your Jupyter Notebook should meet the following specifications:
+After joining the databases, we were able to match director and writer constructor codes to their respective movies by title name. We then filtered the database by genre as indicated in the table below. 
 
-**_Organization/Code Cleanliness_**
+<img src='images/q3-dw-title.png' width='90%'/>
 
-* The notebook should be well organized, easy to follow, and code is commented where appropriate.  
-    * Level Up: The notebook contains well-formatted, professional looking markdown cells explaining any substantial code. All functions have docstrings that act as professional-quality documentation.  
-* The notebook is written to technical audiences with a way to both understand your approach and reproduce your results. The target audience for this deliverable is other data scientists looking to validate your findings.  
+Following that, we broke down the directors and writers column values into strings, and then added respective columns that valued the count of directors and writers per movie. 
 
-**_Process, Methodology, and Findings_**
+<img src='images/q3-dw-count.png' width='90%'/>
 
-* Your notebook should contain a clear record of your process and methodology for exploring and preprocessing your data, building and tuning a model, and interpreting your results.
-* We recommend you use the OSEMN process to help organize your thoughts and stay on track.
+We then merged in the Basics dataframe to join the genres, and saw that films with only one director accounted for 90.9% of our data, and that combinations of 1-4 writers were also over 90% of our data.
 
-### Blog Post Must-Haves
+<img src='images/q3-dw-count-graph.png' height='60%' width='70%'/>
 
-Refer back to the [Blogging Guidelines](https://github.com/learn-co-curriculum/dsc-welcome-blogging-v2-1) for the technical requirements and blog ideas.
+Next, we wanted to know if that proportion changed by genre, so we broke that database down to find the total and average counts by genre for directors and writers.
 
-## The Process
+If so, does that have an effect on the finances of our films?
 
-These steps are informed by Smart Vision's<sup>1</sup> description of the CRISP-DM process.
+<img src='images/q3-dw-fin-graph.png' height='60%'/>
 
-### 1. Business Understanding
+### Conclusion
 
-Start by reading this document, and making sure that you understand the kinds of questions being asked.  In order to narrow your focus, you will likely want to make some design choices about your specific audience, rather than addressing all of the "many people" mentioned in the background section.  Do you want to emphasize affordability, investment, or something else?  This framing will help you choose which stakeholder claims to address.
+Overall, it doesn't seem that its very popular for films in general to have more than one or two directors. However, our data does show that staffing 3-4 writers has a tendency to produce a higher grossing film. 
 
-Three things to be sure you establish during this phase are:
+With one fun exception, there is a documentary titled ***A Day in the Life*** that had a whopping 37 directors; which consisted of filming seemingly random people on the same random day. 
 
-1. **Objectives:** what questions are you trying to answer, and for whom?
-2. **Project plan:** you may want to establish more formal project management practices, such as daily stand-ups or using a Trello board, to plan the time you have remaining.  Regardless you should determine the division of labor, communication expectations, and timeline.
-3. **Success criteria:** what does a successful project look like?  How will you know when you have achieved it?
+### Recommendation
 
-### 2. Data Understanding
+<img src='images/q3-dw-fin-bar.png' height='60%'/>
 
-Write a script to download the data (or instructions for future users on how to manually download it), and explore it.  Do you understand what the columns mean?  How do the three data tables relate to each other?  How will you select the subset of relevant data?  What kind of data cleaning is required?
+While there seems to be a correlation between budget, gross, and staff count; we believe that staffing will be based upon genre and an individual films needs. Once a genre is chosen, further analysis will need to be done to provide insight as to what the optimal ratio could be.
 
-It may be useful to generate visualizations of the data during this phase.
+</details>
+<!------------------------------------------>
 
-### 3. Data Preparation
 
-Through SQL and Pandas, perform any necessary data cleaning and develop a query that pulls in all relevant data for analysis in a linear regression model, including any merging of tables.  Be sure to document any data that you choose to drop or otherwise exclude.  This is also the phase to consider any feature scaling or one-hot encoding required to feed the data into a classification model.
+# Wrap Up
 
-### 4. Modeling
+We recommend that Microsoft Studios focus on the **Action** genre due to its high popularity and ROI of 116%. With access to larger budgets, we believe that the studio will benefit from debuting with a literal bang.
 
-The focus this time is on prediction. Good prediction is a matter of the model generalizing well. Steps we can take to assure good generalization include: testing the model on unseen data, cross-validation, and regularization. What sort of model should you build? A diverse portfolio is probably best. Classification models we've looked at so far include logistic regression, decision trees, bagging, and boosting, each of these with different flavors. You are encouraged to try any or all of these.
+<img src='images/final-violin.png'/>
 
-### 5. Evaluation
 
-Recall that there are many different metrics we might use for evaluating a classification model. Accuracy is intuitive, but can be misleading, especially if you have class imbalances in your target. Perhaps, depending on you're defining things, it is more important to minimize false positives, or false negatives. It might therefore be more appropriate to focus on precision or recall. You might also calculate the AUC-ROC to measure your model's *discrimination*.
+The Action genre has a mean production budget of around 46.5 million dollars, with a mean gross of over 54 million dollars. A well developed film of this caliber will allow the studio to cover the costs of a second movie, perhaps in the Adventure or Animation genre, also due to their well-rounded attributes according to the data. 
 
-### 6. Deployment
+We recommend that the debut Action film be limited to 1 director, with 2-3 writers.
 
-In this case, your "deployment" comes in the form of the deliverables listed above. Make sure you can answer the following questions about your process:
+<img src='images/final-dw.png'/>
 
- - "How did you pick the question(s) that you did?"
- - "Why are these questions important from a business perspective?"
- - "How did you decide on the data cleaning options you performed?"
- - "Why did you choose a given method or library?"
- - "Why did you select those visualizations and what did you learn from each of them?"
- - "Why did you pick those features as predictors?"
- - "How would you interpret the results?"
- - "How confident are you in the predictive quality of the results?"
- - "What are some of the things that could cause the results to be wrong?"
+# Future Work
+- Create a larger dataset in order to gain more acurate insight
+- Investigate if popularity is skewed by voter tendencies
+- Look into release date and run-time on popularity and profitability 
+- Whether or not high profile individuals have an effect on profit
+- Compare studio competition to optimize niche markets
 
-
-## Grading Rubric 
-
-Online students can find a PDF of the grading rubric for the project [here](https://github.com/learn-co-curriculum/dsc-mod-3-project-v2-1/blob/master/module_3_project_rubric.pdf). _Note: On-campus students may have different requirements, please speak with your instructor._ 
-
-
-## Citation
-
-1. "What is the CRISP-DM Methodology?" Smart Vision Europe. Available at: https://www.sv-europe.com/crisp-dm-methodology/
